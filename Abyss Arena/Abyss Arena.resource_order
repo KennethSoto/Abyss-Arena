@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":4,"path":"folders/Objects.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+    {"name":"Characters","order":1,"path":"folders/Sprites/Characters.yy",},
+    {"name":"Stages","order":2,"path":"folders/Sprites/Stages.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oPlatform","order":2,"path":"objects/oPlatform/oPlatform.yy",},
+    {"name":"oStructure","order":1,"path":"objects/oStructure/oStructure.yy",},
+    {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
+  ],
+}
