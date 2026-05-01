@@ -3,11 +3,13 @@ xsp = 0
 
 if keyboard_check(ord("A"))
 {
+	sprite_index = sDummy1_Left
         xsp = -3
 }
 
 if keyboard_check(ord("D"))
 {
+	sprite_index = sDummy1_Right
         xsp = +3
 }
 
@@ -24,5 +26,5 @@ move_and_collide(xsp, ysp, oStructure)
 
 if keyboard_check(ord("I"))
 {
-	instance_create_depth(x, y, depth, oSwordAttack)
+	var _ints = instance_create_depth(x, y, depth, oSwordAttack)
 }

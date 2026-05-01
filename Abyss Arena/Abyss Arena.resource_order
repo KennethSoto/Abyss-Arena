@@ -9,6 +9,7 @@
     {"name":"oPlatform","order":2,"path":"objects/oPlatform/oPlatform.yy",},
     {"name":"oStructure","order":1,"path":"objects/oStructure/oStructure.yy",},
     {"name":"oSwordAttack","order":3,"path":"objects/oSwordAttack/oSwordAttack.yy",},
+    {"name":"sDummy1_Right","order":1,"path":"sprites/sDummy1_Right/sDummy1_Right.yy",},
     {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
     {"name":"sSwordAttack","order":5,"path":"sprites/sSwordAttack/sSwordAttack.yy",},
   ],
