@@ -34,5 +34,21 @@ if keyboard_check_pressed(ord("I"))
     var atk = instance_create_layer(x, y, "Instances", oSwordAttack);
 
     atk.owner = id;
-    atk.image_xscale = facing;
+
+
+    if keyboard_check(ord("S"))
+    {
+        atk.attack_dir = "down";
+    }
+
+    else if keyboard_check(ord("W"))
+    {
+        atk.attack_dir = "up";
+    }
+
+    else
+    {
+        atk.attack_dir = "side";
+        atk.image_xscale = facing;
+    }
 }
