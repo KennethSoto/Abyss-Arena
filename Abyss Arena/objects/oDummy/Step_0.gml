@@ -6,6 +6,7 @@ if keyboard_check(ord("A"))
 	sprite_index = sDummy1_Left;
         xsp = -3;
 		facing = point_direction(0, 0, xsp, ysp);
+		image_xscale = -1;
 }
 
 if keyboard_check(ord("D"))
@@ -13,6 +14,7 @@ if keyboard_check(ord("D"))
 	sprite_index = sDummy1_Right;
         xsp = +3;
 		facing = point_direction(0, 0, xsp, ysp);
+		image_xscale = 1;
 }
 
 if place_meeting(x, y+1, oStructure)
