@@ -4,3 +4,4 @@ xsp = 0;
 ysp = 0;
 damage = 1;
 facing = 1;
+sprite_scale = 1; 

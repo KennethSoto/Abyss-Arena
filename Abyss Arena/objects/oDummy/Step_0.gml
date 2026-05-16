@@ -3,40 +3,36 @@ xsp = 0;
 
 if keyboard_check(ord("A"))
 {
-	sprite_index = sDummy1_Left;
-        xsp = -3;
-		facing = -1;
+    sprite_index = sDummy1_Left;
+    xsp = -3;
+    facing = -1;
 }
 
 if keyboard_check(ord("D"))
 {
-	sprite_index = sDummy1_Right;
-        xsp = +3;
-		facing = 1;
-}
-image_xscale = facing;
-if place_meeting(x, y+1, oStructure)
-{
-        ysp = 0;
-        if keyboard_check_pressed(ord("W"))
-        {
-                ysp = -4.38;
-				facing = point_direction(0, 0, xsp, ysp);
-        }
+    sprite_index = sDummy1_Right;
+    xsp = 3;
+    facing = 1;
 }
 
-if keyboard_check(ord("S"))
+image_xscale = sprite_scale * facing;
+
+if place_meeting(x, y+1, oStructure)
 {
-	facing = point_direction(0, 0, xsp, ysp);
+    ysp = 0;
+
+    if keyboard_check_pressed(ord("W"))
+    {
+        ysp = -4.38;
+    }
 }
 
 move_and_collide(xsp, ysp, oStructure);
 
 if keyboard_check_pressed(ord("I"))
 {
-	var atk = instance_create_layer(x, y, "Instances", oSwordAttack);
+    var atk = instance_create_layer(x, y, "Instances", oSwordAttack);
 
     atk.owner = id;
     atk.image_xscale = facing;
-	
 }
