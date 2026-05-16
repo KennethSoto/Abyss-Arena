@@ -1,9 +1,15 @@
+
 ysp += 0.1;
+
+
 xsp = 0;
+
 
 if (alarm[1] >= 0)
 {
-	xsp = x + kb_x;
+    xsp = kb_x;
+	ysp = kb_y;
 }
-move_and_collide(xsp, ysp, oStructure);
 
+
+move_and_collide(xsp, ysp, oStructure);
