@@ -34,7 +34,9 @@ move_and_collide(xsp, ysp, oStructure);
 
 if keyboard_check_pressed(ord("I"))
 {
-	var _ints = instance_create_depth(x, y, depth, oSwordAttack);
-	_ints.image_angle = facing;
+	//var _ints = instance_create_depth(x, y, depth, oSwordAttack);
+	//_ints.image_angle = facing;
+	var atk = instance_create_layer(x, y, "Instances", oSwordAttack);
+	atk.owner = id;
 	
 }
