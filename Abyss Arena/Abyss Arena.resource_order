@@ -16,6 +16,7 @@
     {"name":"oSwordAttack","order":3,"path":"objects/oSwordAttack/oSwordAttack.yy",},
     {"name":"hitboxlib","order":2,"path":"scripts/hitboxlib/hitboxlib.yy",},
     {"name":"SpriteData","order":1,"path":"scripts/SpriteData/SpriteData.yy",},
+    {"name":"sBackground","order":2,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"sDummy1_Right","order":1,"path":"sprites/sDummy1_Right/sDummy1_Right.yy",},
     {"name":"sDummy2_Left","order":3,"path":"sprites/sDummy2_Left/sDummy2_Left.yy",},
     {"name":"sDummy2_Right","order":2,"path":"sprites/sDummy2_Right/sDummy2_Right.yy",},

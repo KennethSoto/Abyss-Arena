@@ -36,4 +36,5 @@ if keyboard_check_pressed(ord("I"))
 {
 	var _ints = instance_create_depth(x, y, depth, oSwordAttack);
 	_ints.image_angle = facing;
+	
 }

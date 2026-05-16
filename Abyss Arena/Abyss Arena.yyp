@@ -37,6 +37,7 @@
     {"id":{"name":"hitboxlib","path":"scripts/hitboxlib/hitboxlib.yy",},},
     {"id":{"name":"show","path":"scripts/show/show.yy",},},
     {"id":{"name":"SpriteData","path":"scripts/SpriteData/SpriteData.yy",},},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sDummy1_Left","path":"sprites/sDummy1_Left/sDummy1_Left.yy",},},
     {"id":{"name":"sDummy1_Right","path":"sprites/sDummy1_Right/sDummy1_Right.yy",},},
     {"id":{"name":"sDummy2_Left","path":"sprites/sDummy2_Left/sDummy2_Left.yy",},},
