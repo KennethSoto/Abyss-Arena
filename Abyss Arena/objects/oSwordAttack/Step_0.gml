@@ -1,9 +1,9 @@
 if (instance_exists(owner))
 {
-    x = owner.x + (offset_x * owner.image_xscale);
-    y = owner.y + offset_y;
+    image_xscale = owner.facing;
 
-    image_xscale = owner.image_xscale;
+    x = owner.x + (offset_x * owner.facing);
+    y = owner.y + offset_y;
 }
 else
 {
